@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
+
 header {
     background: rgba(15,15,15,0.95);
     backdrop-filter: blur(10px);
@@ -76,7 +76,6 @@ header {
     width: 100%;
 }
 
-/* ===== HERO ===== */
 .hero {
     min-height: 80vh;
     background:
@@ -106,7 +105,7 @@ header {
     margin-bottom: 30px;
 }
 
-/* ===== BOTÕES ===== */
+
 .btn {
     display: inline-block;
     padding: 14px 30px;
@@ -126,7 +125,7 @@ header {
     box-shadow: 0 8px 20px rgba(255,60,0,0.4);
 }
 
-/* ===== CONTAINER ===== */
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -150,7 +149,7 @@ header {
     border-radius: 20px;
 }
 
-/* ===== GRID MOTOS ===== */
+
 .motos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -189,7 +188,7 @@ header {
     color: #ccc;
 }
 
-/* ===== FORMULÁRIO ===== */
+
 .contact-form {
     max-width: 700px;
     margin: auto;
@@ -227,7 +226,7 @@ header {
     box-shadow: 0 0 10px rgba(255,60,0,.3);
 }
 
-/* ===== FOOTER ===== */
+
 footer {
     background: #090909;
     text-align: center;
@@ -236,7 +235,7 @@ footer {
     border-top: 1px solid #222;
 }
 
-/* ===== ANIMAÇÕES ===== */
+
 .hero h2,
 .hero p,
 .hero .btn {
@@ -262,7 +261,7 @@ footer {
     }
 }
 
-/* ===== RESPONSIVO ===== */
+
 @media (max-width: 768px) {
 
     .navbar {
@@ -286,7 +285,7 @@ footer {
         height: 220px;
     }
 }
-/* ===== TABELA DE PREÇOS ===== */
+
 
 .tabela-wrapper{
     overflow-x: auto;
@@ -327,3 +326,10 @@ footer {
     color: #00e676;
     font-weight: bold;
 }
+.botao{
+    padding: 1px 10px;  
+    line-height: 20px;  
+    display: block;
+    gap: 40px;
+}
+
